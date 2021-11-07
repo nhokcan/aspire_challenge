@@ -21,7 +21,7 @@ Verify Create Manufacturing Successfully
     Create Manufacturing
 
     # Validate Order after create
-    ${currentDate}=   Get Current Date Picker
+    ${currentDate}=   Get Current Date for Order
     ${Order_Infor_Expected}=   Create List    [${interalRef}] ${productName}
     ...                                       ${PROD_SUMMARY}[Qty]
     ...                                       ${currentDate}
